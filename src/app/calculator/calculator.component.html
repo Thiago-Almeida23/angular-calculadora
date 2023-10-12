@@ -1,0 +1,26 @@
+<div class="calculator-wrapper">
+  <div class="calculator">
+    <input [(ngModel)]="expression" readonly>
+    <button (click)="addToExpression('1')">1</button>
+    <button (click)="addToExpression('2')">2</button>
+    <button (click)="addToExpression('3')">3</button>
+    <button (click)="addToExpression('+')">+</button>
+    <button (click)="addToExpression('4')">4</button>
+    <button (click)="addToExpression('5')">5</button>
+    <button (click)="addToExpression('6')">6</button>
+    <button (click)="addToExpression('-')">-</button>
+    <button (click)="addToExpression('7')">7</button>
+    <button (click)="addToExpression('8')">8</button>
+    <button (click)="addToExpression('9')">9</button>
+    <button (click)="addToExpression('*')">*</button>
+    <button (click)="addToExpression('0')">0</button>
+    <button (click)="addToExpression('.')">.</button>
+    <button (click)="addToExpression('%')">%</button>
+    <button (click)="addToExpression('/')">/</button>
+    <button (click)="addToExpression('(')">(</button>
+    <button (click)="addToExpression(')')">)</button>
+    <button (click)="clearExpression()">C</button>
+    <button (click)="calculateResult()" class="equals">=</button>
+  </div>
+</div>
+
